@@ -264,8 +264,11 @@ See `CODE_AVAILABILITY.md`.
 
 ## Citation
 
-Add the definitive article citation and DOI to `CITATION.md` once the final
-publisher metadata are available.
+The accepted article DOI is **[10.1016/j.health.2026.100493](https://doi.org/10.1016/j.health.2026.100493)**.
+
+See `CITATION.md` for the repository citation note. The full bibliographic
+entry should be updated from the publisher record once all final metadata are
+available.
 
 ## License
 
