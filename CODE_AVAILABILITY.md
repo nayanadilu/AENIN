@@ -1,6 +1,6 @@
 # Code Availability
 
-The associated AENIN article has been accepted.
+The associated AENIN article has been accepted. DOI: 10.1016/j.health.2026.100493.
 
 This repository provides the implementation and supporting research code from
 the accepted-study notebooks, including preprocessing, graph construction,
