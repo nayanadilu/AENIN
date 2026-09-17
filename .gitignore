@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+
+# Environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local data and research artefacts
+data/
+datasets/
+private/
+checkpoints/
+outputs/
+results/
+logs/
+*.nii
+*.nii.gz
+*.npy
+*.npz
+*.pt
+*.pth
+*.pkl
+
+# Secrets
+.env
+.env.*
+*.key
+*.pem
+secrets.*
+credentials.*
