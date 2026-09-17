@@ -25,3 +25,4 @@ Changes made for repository release:
 
 These changes are packaging/documentation changes; no intentional redesign of
 the research algorithms was introduced.
+10. Added the accepted article DOI: `10.1016/j.health.2026.100493` to the release documentation.
