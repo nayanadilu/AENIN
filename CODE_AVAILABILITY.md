@@ -1,15 +1,17 @@
 # Code Availability
 
-The implementation of AENIN is part of ongoing research and is not publicly
-available at this stage.
+The associated AENIN article has been accepted.
 
-The source code and supporting documentation necessary to reproduce the
-reported experiments will be made publicly available **after acceptance of the
-associated research article**.
+This repository provides the implementation and supporting research code from
+the accepted-study notebooks, including preprocessing, graph construction,
+AENIN model code, training and cross-validation utilities, SCRM analysis,
+statistical analysis, ablation code, and the supplied baseline-comparison
+implementations.
 
-The present repository intentionally contains only a limited public research
-preview. It does not disclose the complete model implementation, research
-pipeline, experimental configurations, or unpublished methodological details.
+The original neuroimaging dataset is not redistributed with the repository.
+Users must obtain the data from the appropriate official source and comply
+with its access, acknowledgement, and data-use requirements.
 
-After acceptance, this repository is intended to be updated with the
-reproducibility resources associated with the published study.
+The public release removes machine-specific file paths, cached notebook
+outputs, temporary files, and local data references. The cleanup is documented
+in `CHANGELOG.md`.

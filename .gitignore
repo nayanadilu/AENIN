@@ -2,7 +2,6 @@
 __pycache__/
 *.py[cod]
 *.so
-.Python
 build/
 dist/
 *.egg-info/
@@ -11,6 +10,7 @@ dist/
 .venv/
 venv/
 env/
+.conda/
 
 # Jupyter
 .ipynb_checkpoints/
@@ -21,26 +21,35 @@ env/
 .DS_Store
 Thumbs.db
 
-# Local data and research artefacts
-data/
-datasets/
-private/
-checkpoints/
-outputs/
-results/
-logs/
-*.nii
-*.nii.gz
-*.npy
-*.npz
-*.pt
-*.pth
-*.pkl
-
 # Secrets
 .env
 .env.*
 *.key
 *.pem
-secrets.*
 credentials.*
+secrets.*
+
+# Neuroimaging / participant data
+data/ASD/
+data/TD/
+data/ABIDE_func/
+*.nii
+*.nii.gz
+
+# Processed datasets / arrays / checkpoints
+*.pt
+*.pth
+*.ckpt
+*.npy
+*.npz
+*.pkl
+
+# Generated outputs
+results/*
+!results/.gitkeep
+aenin_output/
+outputs/
+logs/
+
+# Local atlas/cache downloads
+nilearn_data/
